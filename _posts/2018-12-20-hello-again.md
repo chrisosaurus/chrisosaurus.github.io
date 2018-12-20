@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Hello again"
-date: 2018-12-20
 ---
 
 # Welcome

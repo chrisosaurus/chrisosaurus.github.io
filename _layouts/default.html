@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
     <nav>
@@ -13,7 +14,6 @@
       {{ content }}
     </section>
     <footer>
-      &copy; Chris Hall 2018
     </footer>
   </body>
 </html>

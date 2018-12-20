@@ -2,7 +2,10 @@
 layout: default
 single: true
 ---
-<p>Written by {{ site.author }}</p>
+<p>
+    {{ post.date | date: "%Y-%m-%d" }}
+    Written by {{ site.author }}
+</p>
 
 {{ content }}
 

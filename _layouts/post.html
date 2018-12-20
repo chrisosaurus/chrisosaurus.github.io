@@ -2,10 +2,16 @@
 layout: default
 single: true
 ---
-<p>
+<nav>
+  <a href="/">{{ site.title }}</a>
+</nav>
+<h1 class="pagetitle">{{ page.title }}</h1>
+<section>
+  <p>
     {{ post.date | date: "%Y-%m-%d" }}
     Written by {{ site.author }}
-</p>
+  </p>
+</section>
 
 {{ content }}
 

@@ -1,6 +1,17 @@
-.homelink {
+h1 {
+    text-align: center;
 }
 
-.pagetitle {
+nav {
+    text-decoration: none;
+}
+
+nav:hover {
+    text-decoration: underline;
+}
+
+a {
+    /* dislike typical blue/purple link colouring */
+    color: #000000;
 }
 

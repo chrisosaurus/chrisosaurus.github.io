@@ -6,6 +6,14 @@ nav a:hover {
     text-decoration: underline;
 }
 
+.posts a {
+    text-decoration: none;
+}
+
+.posts a:hover {
+    text-decoration: underline;
+}
+
 a {
     /* dislike typical blue/purple link colouring */
     color: #000000;
@@ -17,6 +25,14 @@ a {
 
 .title {
     text-align: center;
+}
+
+.title a {
+    text-decoration: none;
+}
+
+.title a:hover {
+    text-decoration: underline;
 }
 
 .author {

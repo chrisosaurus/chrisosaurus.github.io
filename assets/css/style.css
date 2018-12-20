@@ -39,10 +39,6 @@ a {
     text-decoration: underline;
 }
 
-.author {
-    text-align: center;
-}
-
 .center {
     margin: auto;
     max-width: 800px;

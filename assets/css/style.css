@@ -1,7 +1,3 @@
-h1 {
-    text-align: center;
-}
-
 nav a {
     text-decoration: none;
 }
@@ -13,5 +9,17 @@ nav a:hover {
 a {
     /* dislike typical blue/purple link colouring */
     color: #000000;
+}
+
+.date {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.author {
+    text-align: center;
 }
 

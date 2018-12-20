@@ -39,3 +39,12 @@ a {
     text-align: center;
 }
 
+.content {
+    margin: auto;
+    max-width: 800px;
+}
+
+ul {
+    padding-left: 3em;
+}
+
